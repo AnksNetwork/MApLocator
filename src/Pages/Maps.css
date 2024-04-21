@@ -1,0 +1,38 @@
+.inputClasses {
+    width: 100%;
+    max-width: 50%;
+    padding: 0.75rem;
+    margin: 0.5rem;
+    border-radius: 0.375rem;
+    border: 1px solid #d1d5db; /* Change color as needed */
+    background-color: #ffffff; /* Change color as needed */
+    color: #374151; /* Change color as needed */
+    outline: none;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.inputClasses:focus {
+    border-color: #2563eb; /* Change color as needed */
+    box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2); /* Change color as needed */
+}
+
+.map-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mapContainerClasses {
+    width: 250%;
+    height: 70vh; /* Adjust height as needed */
+    margin: 0.5rem;
+    border-radius: 0.375rem;
+    overflow: hidden;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1); /* Adjust shadow as needed */
+}
+
+.mapContainerClasses iframe {
+    width: 200%;
+    height: 100%;
+    border: none;
+}

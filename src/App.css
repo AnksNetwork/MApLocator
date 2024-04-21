@@ -1,0 +1,11 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-left-content {
+  top: 20px; /* Adjust this value as needed */
+  margin-left: 20px; /* Adjust this value as needed */
+
+}
